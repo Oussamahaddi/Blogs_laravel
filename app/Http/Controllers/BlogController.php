@@ -21,4 +21,9 @@ class BlogController extends Controller
             'blog' => $blog
         ]);
     }
+
+    // show create form
+    public function create(Blog $blog) {
+        return view('blogs.create');
+    }
 }

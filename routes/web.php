@@ -19,3 +19,5 @@ Route::get('/', [BlogController::class , 'index']);
 
 // fetch and get single product with id
 Route::get('/singleBlog/{blog}',[BlogController::class , 'show']);
+
+Route::get('/blogs/create', [BlogController::class , 'create']);

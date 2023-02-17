@@ -10,9 +10,6 @@
             </h3>
             <div class="text-xl font-bold my-4">{{$blog->author}} <span class="text-gray-400 text-sm font-auto">(Author)</span> </div>
             <x-blog-tag :tagsCsv="$blog->tags" />
-            <div class="text-lg mt-4">
-                {{$blog->description}}
-            </div>
         </div>
     </div>
 </x-cart>
